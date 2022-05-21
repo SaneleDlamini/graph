@@ -1,0 +1,113 @@
+.container{
+	width: 50%;
+	margin: 30px auto;
+    position: relative;
+}
+
+.verticals{
+	display: flex;
+	justify-content: space-between;
+}
+
+.pole{
+	background-color: #000;
+	width: 4px;
+	height: 400px;
+}
+
+.bar{
+	background-color: #eee;
+	width: 40px;
+	height: 400px;
+	position: relative;
+}
+
+.horizontal{
+	width: 100%;
+	height:10px;
+	background-color: #000;
+	margin-left: 32px;
+}
+
+.terms{
+	display: flex;
+	justify-content: space-between;
+	font-weight: bolder;
+	margin-left: 50px;
+}
+
+.percentage{
+	margin-right: -125px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.in-bar-one{
+	width: 100%;
+	background-color: green;
+	/*position: absolute;*/
+	bottom: 0;
+}
+
+
+.term-one-form{
+	margin-bottom: 40px;
+}
+
+input[type='text'], select{
+	width: 50%;
+	padding: 7px;
+	border: 0.5px solid #eee;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+button{
+	padding: 10px 15px;
+	border: none;
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
+}
+
+.tabs{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.tab-one{
+	cursor: pointer;
+}
+
+/*.forms{
+	display: flex;
+	justify-content: space-around;
+}*/
+
+.active-tab{
+	background-color: green;
+	color: #fff;
+	padding: 5px 30px;
+}
+
+.statistics{
+  display: flex;
+}
+.box{
+	width: 30px;
+	height: 30px;
+	background-color: #eee;
+	margin-right: 5px;
+}
+
+.box-two{
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	margin-right: 5px;
+}
